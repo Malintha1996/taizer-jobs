@@ -1,0 +1,39 @@
+{
+  "name": "xchange",
+  "version": "0.0.1-SNAPSHOT",
+  "description": "review provider's platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install  && npm install && npm run build"
+  },
+  "author": "malintha1996",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@pusher/chatkit-server": "^2.1.1",
+    "async": "^3.1.0",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cloudinary": "^1.16.0",
+    "concurrently": "^4.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "heroku-cli": "^7.0.9",
+    "jslint": "^0.12.1",
+    "jsonwebtoken": "*",
+    "local-storage": "^2.0.0",
+    "mongoose": "*",
+    "nodemailer": "^6.3.0",
+    "openssl": "^1.1.0",
+    "passport": "*",
+    "passport-jwt": "*",
+    "pusher": "^2.2.2",
+    "request": "^2.88.0",
+    "tslint": "^5.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
